@@ -30,3 +30,18 @@ $(document).ready(function(){
     $("img#proj6").hover(function(){
       $("p#work6").show();
     });
+    $("img#proj7").hover(function(){
+        $("p#work7").show();
+      });
+      $("img#proj8").hover(function(){
+        $("p#work8").show();
+      });
+      // process user add in the contact us section
+      $("#submit").click(function(){
+        var nameInput = $("input#name").val();
+        var emailInput = $("input#email").val();
+        var textInput = $("input#text").val();
+        alert("Hi "+ nameInput + ", we have received your message. Thank you for visiting our Studio").val();
+    
+      });
+  });
